@@ -1,0 +1,85 @@
+.top-banner {
+    height: 40px;
+    line-height: 40px;
+    background-color: #110101;
+    position: relative;
+}
+
+.top-banner__link {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+
+.top-banner__btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.top-banner__btn > span {
+    color: #110101;
+    font-size: 2rem;
+}
+
+
+.top-banner__btn:hover {
+    background-color: #ccc;
+}
+
+
+/* header */
+.header-wrap {
+    height: 65px;
+    display: grid;
+    grid-template-columns: 170px 1fr 150px;
+    align-items: center;
+    gap: 15px;
+}
+
+.navigation-horizontal {
+    display: flex;
+    justify-content: space-around;
+}
+.menu-item {
+    padding: 20px 15px;
+}
+
+.menu-item__link {
+    color: #000;
+    font-size: 1.4rem;
+}
+
+.navigation-arrows {
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navigation-arrows > i:nth-child(1) {
+    color: #ccc;
+}
+
+.navigation-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.navigation-right a {
+    color: #000;
+}
